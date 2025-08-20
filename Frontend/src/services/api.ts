@@ -123,9 +123,9 @@ interface CollectionStats {
 }
 
 const API_URL = window.cordova
-  ? 'https://shivlibrary-7kkn.onrender.com/api'
+  ? 'https://gyanlibrary.onrender.com/api'
   : process.env.NODE_ENV === 'production'
-    ? 'https://shivlibrary-7kkn.onrender.com/api'
+    ? 'https://gyanlibrary.onrender.com/api'
     : 'http://localhost:3000/api';
 
 const apiClient = axios.create({
